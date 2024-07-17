@@ -1,0 +1,44 @@
+/* _home.css */
+
+/* Container for the timetable */
+.timetable-container {
+  max-width: 800px; /* Adjust as needed */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Styling for the table */
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.timetable th, .timetable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #f2f2f2;
+}
+
+.timetable td {
+  background-color: #ffffff;
+}
+
+/* Styling for specific cells (periods) */
+.timetable td.period {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for specific cells (days) */
+.timetable td.day {
+  font-weight: bold;
+  color: #555;
+}
